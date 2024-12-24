@@ -42,7 +42,7 @@ if reset_button:
 
 # Use example image functionality
 if example_button:
-    st.session_state["example_image"] = "images/rp3.jpg"  # Replace with the path to your example image
+    st.session_state["example_image"] = "images/sample_image.jpg"  # Replace with the path to your example image
     st.session_state["uploaded_file"] = None
     st.session_state["output_image"] = None
 
