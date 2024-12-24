@@ -37,7 +37,8 @@ example_button = st.sidebar.button("Use Example Image", key="example_button")
 # Reset functionality
 if reset_button:
     st.session_state.clear()
-    st.experimental_rerun()
+    # st.experimental_rerun()
+    st.rerun()
 
 # Use example image functionality
 if example_button:
