@@ -6,6 +6,26 @@
 
 A computer vision application that automatically extracts the smallest repeating unit from pattern images such as textiles, wallpapers, and decorative designs.
 
+## 📖 About
+
+The Repeating Pattern Extractor is an advanced computer vision tool designed to identify and extract the fundamental repeating units from patterned images. Built with OpenCV and Python, this project implements a novel algorithm using sliding window techniques to detect pattern repetition boundaries with remarkable accuracy.
+
+**Key Insights:**
+
+- Uses L2 loss (mean squared error) calculations to detect pattern boundaries
+- Works efficiently on both simple and complex repeating patterns
+- Supports color (RGB) and grayscale images with specialized processing pipelines
+- Features a user-friendly web interface built with Streamlit for accessibility
+
+This tool is particularly valuable for:
+
+- **Textile Designers**: Analyzing and decomposing existing fabric patterns
+- **Digital Artists**: Extracting core design elements from repeating works
+- **Computer Vision Researchers**: Studying pattern recognition techniques
+- **Design Students**: Learning about pattern composition and structure
+
+The project originated from research into pattern analysis algorithms and has been optimized for performance across various pattern types, from simple geometric designs to complex natural patterns.
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
@@ -161,4 +181,3 @@ If you use this software in your research, please cite:
   url = {https://github.com/LalitAI17/repeating-pattern-extractor}
 }
 ```
-
